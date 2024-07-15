@@ -1,0 +1,178 @@
+:root{
+--Strong_Cyan: hsl(171, 66%, 44%);
+--Light_Blue: hsl(233, 100%, 69%);   
+--Dark_Grayish_Blue: hsl(210, 10%, 33%);
+--Grayish_Blue: hsl(201, 11%, 66%);
+--MainPadding: 50px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--Grayish_Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.Page{
+    height: 100%;
+    max-width: 60%;
+    background-color: white; 
+}
+.c_logo{
+    width: 100%;
+    
+}
+.first{
+    padding: var(--MainPadding);
+    height: 20vh;
+}
+h1{
+    font-size: 27px;
+    text-align: center;
+    
+    
+}
+p{
+    font-size: 11.8px;
+    text-align: center;
+   color: var(--Grayish_Blue);
+   padding-bottom: 10px;
+}
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 110px;
+}
+.container div {
+    width: calc(96% /2);
+    font-size: 10px;
+    
+}
+.IOS,
+.Mac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-radius: 10px;
+    color: white
+    
+}
+.IOS{
+    background-color: var(--Strong_Cyan);
+}
+.Mac{
+    background-color: var(--Light_Blue);
+}
+.second{
+    padding: var(--MainPadding);
+
+}
+h2{
+    font-size: 22px;
+    text-align: center;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    padding-right: var(--MainPadding);
+    font-size: 15px;
+    
+}
+.computer{
+    background-image: url("../images/image-computer.png");
+    width: 80%;
+    background-size: 30vh 25vh;
+    background-repeat: no-repeat;
+    background-position-x: -25px;  
+}
+.Icloud{
+    margin: 20px;   
+}
+.Icloud div p {
+    font-size: 11.8px;
+    text-align: left;
+   color: var(--Grayish_Blue);
+   padding-bottom: 10px;
+}
+.four{
+    padding: var(--MainPadding);
+}
+.devices{
+    width: 100%;
+    padding: var(--MainPadding);
+    position: relative;
+    bottom: 50px;
+}
+.five{
+    position: relative;
+    bottom: 80px;
+}
+.six{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: var(--MainPadding);
+}
+.six div{
+    width: calc(96% / 3);
+    text-align: center;
+    height: 100px;
+    font-size: 12px;
+}
+.six div p{
+    font-size: 12px;
+}
+.six img{
+    position: relative;
+    top: -10vh;
+    left: 13vh;
+    width: 50px;
+    height: 40px;
+}
+.seven{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--MainPadding);
+}
+.seven img {
+    width: calc(80% / 5);
+    position: relative;
+    bottom: 80px;
+}
+.eight{
+    padding: var(--MainPadding);
+    position: relative;
+    bottom: 100px;
+}
+.nine{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Grayish_Blue);
+    height: 50px;
+    padding: 20px;
+    
+}
+.nine div {
+    width: calc(90% / 5);
+    padding-top: 15px;
+    font-size: 15px;
+}
+.social{
+
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
